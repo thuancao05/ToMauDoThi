@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="T&#xf4; M&#xe0;u &#x110;&#x1ed3; Th&#x1ecb;"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="troLaiButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
+                      <Component id="tieuDeLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" min="-2" pref="741" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="24" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tieuDeLabel" pref="28" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="troLaiButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="439" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="tieuDeLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="T&#xd4; M&#xc0;U &#x110;&#x1ed2; TH&#x1eca;"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="f0" red="f0" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="16" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="T&#xf4; m&#xe0;u cho 1 &#x111;&#x1ed3; th&#x1ecb; sao cho c&#xe1;c &#x111;&#x1ec9;nh k&#x1ec1; nhau s&#x1ebd; kh&#xf4;ng tr&#xf9;ng m&#xe0;u nhau.&#xa;&#xa;-Nh&#x1ead;p &#x111;&#x1ed3; th&#x1ecb; t&#x1eeb; File:&#xa;&#x9;Ch&#x1b0;&#x1a1;ng tr&#xec;nh s&#x1ebd; &#x111;&#x1ecd;c Ma Tr&#x1ead;n K&#x1ec1; &#x110;&#x1ec9;nh-&#x110;&#x1ec9;nh t&#x1eeb; File (d&#x1ea1;ng txt).&#xa;&#x9;&#xa;-Nh&#x1ead;p &#x111;&#x1ed3; th&#x1ecb; t&#x1eeb; Danh s&#xe1;ch cung:&#xa;&#x9;Ng&#x1b0;&#x1edd;i d&#xf9;ng c&#x1ea7;n nh&#x1ead;p s&#x1ed1; l&#x1b0;&#x1ee3;ng &#x111;&#x1ec9;nh, s&#x1ed1; l&#x1b0;&#x1ee3;ng cung v&#xe0; danh s&#xe1;ch c&#xe1;c cung&#xa;&#x9;&#xa;-Sinh &#x111;&#x1ed3; th&#x1ecb; ng&#x1eab;u nhi&#xea;n&#xa;&#x9;Ng&#x1b0;&#x1edd;i d&#xf9;ng ch&#x1ec9; c&#x1ea7;n nh&#x1ead;p s&#x1ed1; l&#x1b0;&#x1ee3;ng &#x111;&#x1ec9;nh, s&#x1ed1; l&#x1b0;&#x1ee3;ng cung&#xa;&#x9;H&#x1ec7; th&#x1ed1;ng s&#x1ebd; t&#x1ef1; t&#x1ea1;o ra danh s&#xe1;ch cung ng&#x1eab;u nhi&#xea;n.&#xa;&#xa;Quy t&#x1eaf;c:&#xa;&#x9;- Ng&#x1b0;&#x1edd;i d&#xf9;ng nh&#x1ead;p v&#xe0;o s&#x1ed1; nguy&#xea;n d&#x1b0;&#x1a1;ng&#xa;&#x9;- &#x110;&#x1ed3; th&#x1ecb; v&#xf4; h&#x1b0;&#x1edb;ng, kh&#xf4;ng &#x111;a cung, kh&#xf4;ng khuy&#xea;n. &#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="troLaiButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tr&#x1edf; l&#x1ea1;i"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="troLaiButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

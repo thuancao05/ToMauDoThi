@@ -1,0 +1,5 @@
+0 0
+Thuật toán tham lam
+
+Thuật toán Whelsh Powell
+
